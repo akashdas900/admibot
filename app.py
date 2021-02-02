@@ -31,7 +31,7 @@ from tensorflow.keras.callbacks import ModelCheckpoint, EarlyStopping, ReduceLRO
 
 
 
-main_path="C:/Users/akash/Desktop/UI/Chatbot/"
+main_path=""
 from tensorflow.keras.models import load_model
 model = load_model(main_path+'saved_models/model.h5', custom_objects={"BertModelLayer": bert.BertModelLayer})
 
